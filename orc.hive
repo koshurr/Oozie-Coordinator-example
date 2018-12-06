@@ -1,0 +1,9 @@
+drop table orc_table;
+
+Create Table orc_table(
+   name string, 
+   age string,
+   address string,
+   zip string
+)
+STORED AS ORC;
